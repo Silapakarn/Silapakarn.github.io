@@ -2485,6 +2485,7 @@ h6 {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s; }
   .feature_item img {
+    width: 100%;
     margin-bottom: 35px; }
   .feature_item h4 {
     font-size: 20px;
@@ -2522,7 +2523,7 @@ h6 {
   .single-brand-item .d-table-cell {
     vertical-align: middle; }
   .single-brand-item img {
-    max-width: 80px;
+    max-width: 120px;
     margin: 0 auto;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
@@ -2534,12 +2535,12 @@ h6 {
   .single-brand-item:hover {
     border: 1px solid transparent;
     box-shadow: 0px 8px 30px rgba(118, 85, 225, 0.15); }
-    .single-brand-item:hover img {
+    /* .single-brand-item:hover img {
       filter: brightness(0%);
       -o-filter: brightness(0%);
       -ms-filter: brightness(0%);
       -moz-filter: brightness(0%);
-      -webkit-filter: brightness(0%); }
+      -webkit-filter: brightness(0%); } */
 
 .client-info {
   padding: 25px 30px;
@@ -2653,6 +2654,10 @@ h6 {
       .portfolio_box .short_info h4 a {
         color: #000000; }
 
+  .short_info h4 a:hover{
+    color:#854fee;
+  }
+
 .single_portfolio {
   position: relative; }
   .single_portfolio .overlay {
@@ -2685,13 +2690,17 @@ h6 {
       transform: rotate(135deg);
       color: #ffffff;
       cursor: pointer; }
-  .single_portfolio:hover .overlay {
+
+    .single_portfolio img{
+      border-radius: 5px;
+    }
+  /* .single_portfolio:hover .overlay {
     background: rgba(77, 87, 222, 0.5); }
   .single_portfolio:hover .icon {
     opacity: 1;
     visibility: visible;
     top: 50%;
-    left: 50%; }
+    left: 50%; } */
 
 .portfolio_details_inner .row {
   margin-bottom: 65px; }
@@ -2797,7 +2806,8 @@ h6 {
 
 .subscription_box {
   background: url(../img/subscribe-bg.png) no-repeat center;
-  padding: 150px 0px; }
+  padding: 150px 0px;
+}
   @media (max-width: 767px) {
     .subscription_box {
       padding: 50px 20px; } }
@@ -2810,6 +2820,7 @@ h6 {
   .subscription_box p {
     margin-bottom: 0; }
   .subscription_box .subscription input {
+    
     min-width: 380px;
     max-width: 380px;
     line-height: 48px;
@@ -2941,6 +2952,8 @@ h6 {
     margin-bottom: 4px;
     transition: all 400ms linear;
     cursor: pointer; }
+
+
 
   .navbar .container {
     padding-left: 15px;
