@@ -3317,3 +3317,12 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+.a_text{
+  list-style: none;
+  color:white;
+}
+
+.a_text:hover{
+  color:rgb(174, 255, 81);
+}
